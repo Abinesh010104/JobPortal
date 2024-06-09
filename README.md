@@ -1,7 +1,7 @@
 
 # Job Portal
 
-![Job Portal Logo](jobPortalClient\src\assets\media\logo.png)
+![Job Portal Logo](jobPortalClient/src/assets/media/logo.png)
 
 ## Overview
 
