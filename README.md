@@ -129,5 +129,5 @@ This project is licensed under the MIT License.
 ## Contact
 
 For any inquiries or support, please contact:
-- Email: [gmail](emailto:neshabi096@gmail.com)
-- GitHub: [Abinesh](https://github.com/your-username)
+- Email: your-email@example.com
+- GitHub: [your-username](https://github.com/your-username)
