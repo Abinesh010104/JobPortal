@@ -38,7 +38,7 @@ const Register = () => {
       // posting
       try {
         const response = await axios.post(
-          "https://job-portal-server-jade.vercel.app/api/v1/auth/register",
+          "https://abinesh-job-portal-server.vercel.app/api/v1/auth/register",
           user
         );
 

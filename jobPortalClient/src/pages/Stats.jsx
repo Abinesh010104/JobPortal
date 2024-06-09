@@ -32,7 +32,7 @@ const Stats = () => {
     queryKey: ["stats"],
     queryFn: () =>
       getAllHandler(
-        `https://job-portal-server-jade.vercel.app/api/v1/admin/stats`
+        `https://abinesh-job-portal-server.vercel.app/api/v1/admin/stats`
       ),
   });
 

@@ -35,7 +35,7 @@ const EditJob = () => {
     queryKey: ["updateJob"],
     queryFn: () =>
       getSingleHandler(
-        `https://job-portal-server-jade.vercel.app/api/v1/jobs/${id}`
+        `https://abinesh-job-portal-server.vercel.app/api/v1/jobs/${id}`
       ),
   });
 
@@ -98,7 +98,7 @@ const EditJob = () => {
     // posting;
     updateJobMutation.mutate({
       body: updateJob,
-      url: `https://job-portal-server-jade.vercel.app/api/v1/jobs/${id}`,
+      url: `https://abinesh-job-portal-server.vercel.app/api/v1/jobs/${id}`,
     });
   };
   // const onSubmit = (data) => {

@@ -12,7 +12,7 @@ const UserContext = ({ children }) => {
     setUserLoading(true);
     try {
       const response = await axios.get(
-        `https://job-portal-server-jade.vercel.app/api/v1/auth/me`,
+        `https://abinesh-job-portal-server.vercel.app/api/v1/auth/me`,
         {
           withCredentials: true,
         }
@@ -30,7 +30,7 @@ const UserContext = ({ children }) => {
     setUserLoading(true);
     try {
       const response = await axios.post(
-        "https://job-portal-server-jade.vercel.app/api/v1/auth/login",
+        "https://abinesh-job-portal-server.vercel.app/api/v1/auth/login",
         data,
         { withCredentials: true }
       );
@@ -47,7 +47,7 @@ const UserContext = ({ children }) => {
     setUserLoading(true);
     try {
       await axios.post(
-        "https://job-portal-server-jade.vercel.app/api/v1/auth/logout",
+        "https://abinesh-job-portal-server.vercel.app/api/v1/auth/logout",
         {},
         { withCredentials: true }
       );

@@ -9,7 +9,7 @@ const Admin = () => {
     queryKey: ["admin_info"],
     queryFn: () =>
       getAllHandler(
-        "https://job-portal-server-jade.vercel.app/api/v1/admin/info"
+        "https://abinesh-job-portal-server.vercel.app/api/v1/admin/info"
       ),
   });
 

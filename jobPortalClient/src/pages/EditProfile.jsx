@@ -29,7 +29,7 @@ const EditProfile = () => {
   //     queryKey: ["profile"],
   //     queryFn: async () => {
   //         const response = await axios.get(
-  //             `https://job-portal-server-jade.vercel.app/api/v1/users/${id}`
+  //             `https://abinesh-job-portal-server.vercel.app/api/v1/users/${id}`
   //         );
   //         return response.data;
   //     },
@@ -60,7 +60,7 @@ const EditProfile = () => {
       }
 
       const response = await axios.patch(
-        `https://job-portal-server-jade.vercel.app/api/v1/users`,
+        `https://abinesh-job-portal-server.vercel.app/api/v1/users`,
         updateUser,
         {
           withCredentials: true,

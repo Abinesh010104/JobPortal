@@ -14,7 +14,7 @@ const PaginationCom = () => {
     // );
     // setItemOffset(newOffset);
     handleJobFetch(
-      `https://job-portal-server-jade.vercel.app/api/v1/jobs?page=${
+      `https://abinesh-job-portal-server.vercel.app/api/v1/jobs?page=${
         e.selected + 1
       }&limit=5`
     );

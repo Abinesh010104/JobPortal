@@ -30,7 +30,7 @@ const Home = () => {
   };
 
   useEffect(() => {
-    handleJobFetch(`https://job-portal-server-jade.vercel.app/api/v1/jobs`);
+    handleJobFetch(`https://abinesh-job-portal-server.vercel.app/api/v1/jobs`);
   }, []);
 
   if (jobLoading) {
